@@ -26,6 +26,7 @@ public class OverWorldGenerator extends MapGenerator {
         this.seed = seed;
     }
 
+    //TODO: Clean up type
     public TETile[][] generate() {
         if (type.equals("overworld")) {
             TETile[][] ret = new TETile[this.H][this.W];
