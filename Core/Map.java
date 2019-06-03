@@ -2,12 +2,8 @@ package byog.Core;
 
 import byog.TileEngine.TETile;
 import byog.TileEngine.Tileset;
-import byog.Core.MapGen.OpenSimplexNoise;
-import byog.Core.RandomUtils;
+import byog.Core.Utils.OpenSimplexNoise;
 
-import org.junit.Test;
-
-import java.util.HashMap;
 import java.util.Random;
 
 public class Map {
@@ -60,7 +56,6 @@ public class Map {
         } else {
             return Tileset.SNOWM;
         }
-
     }
 
 

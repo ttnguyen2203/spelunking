@@ -14,7 +14,7 @@
  *   will be the same when ported to other languages.
  */
 
-package byog.Core.MapGen;
+package byog.Core.Utils;
 
 // @source: Kurt Spencer
 public class OpenSimplexNoise {
